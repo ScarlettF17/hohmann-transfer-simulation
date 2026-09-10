@@ -76,3 +76,13 @@ Key limitations include:
 - Numerical accuracy depends on the Euler-Cromer integration time step
 
 Future improvements could include analytical Hohmann transfer calculations, optimized launch-window selection, delta-v calculations, higher-order numerical integration, and three-dimensional orbital elements.
+
+## Sources
+
+Orbital and physical parameters were referenced from:
+
+- NASA Space Science Data Coordinated Archive (NSSDCA) Planetary Fact Sheets
+- NASA NSSDCA Sun Fact Sheet
+- NIST CODATA fundamental physical constants
+
+Planetary perihelion distances and orbital velocities were converted into AU and AU/day for use in the numerical model.
